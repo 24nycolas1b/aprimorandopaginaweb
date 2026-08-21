@@ -1,4 +1,4 @@
-  header{
+header{
                 background-color:#183C63;
                 color:#FFFFFF
                 text-align: center;
@@ -14,6 +14,7 @@
                 margin : 0 auto;
                 padding: 16px;
             }
+            
             article{
                 display: flex;
 
