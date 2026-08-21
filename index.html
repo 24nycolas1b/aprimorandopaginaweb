@@ -6,7 +6,7 @@
         <title>Blog</title>
     <link rel="stylesheet" href="style.css">
     </head>
-    
+
     <body>
         <header>
             <h1>Meu blog tech</h1>
@@ -44,7 +44,7 @@
 <script>
     const botoes = document.querySelectorAll("button");
 
-    botoes.forEach(function(botao){
+    botoes.forEach(function (botao) {
     let curtiu = false;
         botao.addEventListener("click", botaoClicado);
         function botaoClicado(){
@@ -52,7 +52,7 @@
        let texto = botao.querySelector("span");
        if (curtiu === false){
            texto.textContent++;
-           curti = true;
+           curtiu = true;
     } else{
         texto.textContent--;
         curtiu = false;
