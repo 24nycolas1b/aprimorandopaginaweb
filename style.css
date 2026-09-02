@@ -7,7 +7,7 @@
      --cor-botao: #ffffff;
 }
 * {
-    transition: background-color 0,8s ease;
+    transition: background-color 0.8s ease;
 }
 
 .tema-escuro {
@@ -42,16 +42,16 @@ body {
 }
 
 header{
-                background-color: var(--cor-primaria)
-                color:var(var(--cor-contraste))
+                background-color: var(--cor-primaria);
+                color:var(--cor-contraste);
                 text-align: center;
                 margin: 0 auto;
                 padding: 16px;
                
             }
             main{
-                background-color:var(--cor-fundo)
-                color: var(var(--cor-primaria))
+                background-color:var(--cor-fundo);
+                color: var(var(--cor-primaria));
                 margin : 0 auto;
                 padding: 16px;
                 display: flex;
