@@ -6,6 +6,9 @@
      --cor-contraste: #ffffff;
      --cor-botao: #ffffff;
 }
+* {
+    transition: background-color 0,8s ease;
+}
 
 .tema-escuro {
     --cor-primaria: #7acc73;
@@ -27,6 +30,11 @@
 
 .tema-escuro header p {
     color: var(--cor-contraste);
+
+}
+
+.tema-escuro .btn-tema-escuro{
+    background-color: var(--cor-secundaria);
 }
 
 body {
